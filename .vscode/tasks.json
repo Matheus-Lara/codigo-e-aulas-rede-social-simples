@@ -1,0 +1,10 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "run project",
+			"type": "shell",
+			"command": "python3 ${workspaceRoot}/projetoTumbrl/main.py",
+		},
+	]
+}

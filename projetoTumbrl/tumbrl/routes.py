@@ -104,9 +104,6 @@ def delete(post_id):
         for comment in comments:
             database.session.delete(comment)
 
-        for like in likes:
-            database.session.delete(like)
-
         database.session.delete(post)
         database.session.commit()
         return redirect(url_for('profile', user_id=user_id))
